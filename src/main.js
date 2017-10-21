@@ -22,7 +22,7 @@ class LINE extends Command {
 
 
     get myBot() {
-        const bot = ['ufdb348d53532a57228f045ecfaa00f8d','ue5060e54a4ed380dcafd0a2213592ad0','ua044c625da53442ff1040e30bfb1ee28'];
+        const bot = ['u21a6c9ed9087408cabab8c0bfbb28702','ufdb348d53532a57228f045ecfaa00f8d','ue5060e54a4ed380dcafd0a2213592ad0','ua044c625da53442ff1040e30bfb1ee28'];
         return bot; 
     }
 
@@ -127,7 +127,7 @@ class LINE extends Command {
         let sender = messages.from;
         
         this.command('say hi', ['Hi']);
-        this.command('responsename', ['izuna here, My lord']);
+        this.command('responsename', ['Saya Disini :D']);
         this.command('who are you', this.getProfile.bind(this));
         this.command('status', `Your Status: ${JSON.stringify(this.stateStatus)}`);
         this.command(`left ${payload}`, this.leftGroupByName.bind(this));
